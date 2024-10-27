@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços de Pedreiro</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Serviços de Pedreiro</h1>
+        <p>Construção e reformas com qualidade garantida!</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="servicos" class="servicos">
+        <h2 style="text-align: center;">Nossos Serviços</h2>
+        <br>
+        <div class="servico-item">
+            <img src="./imagens/DALL·E 2024-10-16 15.41.18 - A realistic scene showing a construction worker in action. One image features a worker laying bricks with precision using mortar and a trowel. Another.webp" alt="Construção de paredes">
+            <h3>Construção: </h3>
+            <p>&nbsp;Levantamento de paredes, estruturas e fundações.</p>
+        </div>
+        <div class="servico-item">
+            <img src="./imagens/DALL·E 2024-10-16 15.44.55 - A realistic scene of a construction worker plastering a wall. The worker is standing on a ladder, wearing a helmet, gloves, and protective boots. He i.webp"Reforma residencial">
+            <h3>Reformas: </h3>
+            <p>&nbsp;Renove sua casa ou empresa com serviços de alta qualidade.</p>
+        </div>
+        <div class="servico-item">
+            <img src="./imagens/DALL·E 2024-10-16 15.43.36 - A realistic scene of a construction worker laying floor tiles. The worker is kneeling, wearing a safety helmet, gloves, and boots. He is carefully pla.webp" alt="Acabamento de piso">
+            <h3>Acabamento: </h3>
+            <p>&nbsp;Pisos, revestimentos e pinturas impecáveis.</p>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h2 style="text-align: center;">Galeria de Projetos</h2>
+        <br>
+        <div class="galeria-imagens">
+            <img src="./imagens/DALL·E 2024-10-16 15.41.18 - A realistic scene showing a construction worker in action. One image features a worker laying bricks with precision using mortar and a trowel. Another.webp" alt="Projeto 1">
+            <img src="./imagens/DALL·E 2024-10-16 15.44.55 - A realistic scene of a construction worker plastering a wall. The worker is standing on a ladder, wearing a helmet, gloves, and protective boots. He i.webp" alt="Projeto 2">
+            <img src="./imagens/DALL·E 2024-10-16 15.43.36 - A realistic scene of a construction worker laying floor tiles. The worker is kneeling, wearing a safety helmet, gloves, and boots. He is carefully pla.webp" alt="Projeto 3">
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <form id="form-contato" action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem-sucesso" class="sucesso-oculto">Mensagem enviada com sucesso!</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Serviços de Pedreiro. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
